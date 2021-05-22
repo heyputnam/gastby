@@ -1,12 +1,15 @@
-import * as React from 'react' 
+import * as React from 'react'
+import Layout from '../../components/layout'
 
 const IndexPage = () => {
   return(
-   <main>
-     <title>Home Page</title>
+
+    <Layout pageTitle='home page'>
      <h1>my first ever gatsby site!</h1>
      <p>Welcome, stay awhile...</p>
-   </main>
+     <h3>wanna learn more?</h3>
+    </Layout>
+   
   )
 }
 
